@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+ # Data
+ x = [37.78365841]  # Average Money Supply Growth Rate
+ y = [10.50177125]   # Average Inflation Rate
+ 
+ plt.scatter(x, y, color='blue')
+ plt.xlabel('Average Money Supply Growth Rate (%)')
+ plt.ylabel('Average Inflation Rate (%)')
+ plt.title('Average Inflation Rate vs. Average Money Supply Growth Rate')
+ plt.grid(True)
+ plt.show()
